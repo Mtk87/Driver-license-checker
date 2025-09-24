@@ -1,4 +1,4 @@
-# Driver licence checker
+# Driver license checker
 A small utility to do software based age verification and entrance control in go.
 I put it online because I was looking for something simple to do age and access check for an event and couldn't find anything, I'm sure it can be written 1000 times better.
 
