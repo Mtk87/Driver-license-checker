@@ -225,7 +225,7 @@ func mapToLicense(m map[string]string, raw string) DriverLicense {
 
 	// Build a nice “LAST, FIRST M. Suffix” string
 	full := strings.TrimSpace(last + ", " + first)
-	if middle != "" {
+	if middle != "" && middle != "NONE" {
 		full += " " + middle
 	}
 	if suffix != "" {
@@ -422,4 +422,5 @@ func main() {
 			fmt.Println("Ready for Scan")
 		}
 	}
+
 }
